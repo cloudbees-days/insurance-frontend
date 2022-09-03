@@ -24,7 +24,7 @@ const FeaturesSection = () => {
         <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
           Get exactly what you need and nothing you don't
         </p>
-        <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+        <p className="mt-5 max-w-prose mx-auto text-xl text-gray-600">
           Phasellus lorem quam molestie id quisque diam aenean nulla in.
           Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
           condimentum id viverra nulla.
