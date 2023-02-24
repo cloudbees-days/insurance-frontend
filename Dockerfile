@@ -5,7 +5,7 @@ COPY package.json pnpm-lock.yaml /app/
 RUN npm install
 COPY . .
 RUN npm run build
-
+# Test comment
 FROM us-east1-docker.pkg.dev/core-workshop/workshop-registry/nginx:$BASE_IMAGE_TAG
 COPY variableReplace.sh /docker-entrypoint.d/
 COPY --from=BUILDER /app/dist /usr/share/nginx/html
