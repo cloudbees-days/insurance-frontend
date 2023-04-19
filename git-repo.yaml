@@ -1,0 +1,11 @@
+apiVersion: environment.cloudbees.com/v1alpha1
+kind: GitRepository
+metadata:
+  name: cloudbees-capgemini-workshop02242023-insurance-frontend                             
+  namespace: previews
+spec:
+  url: https://github.com/cloudbees-capgemini-workshop02242023/insurance-frontend.git
+  apiTokenSecretRef:
+    name: beedemo-dev-github-token
+  autoUpdateContexts:                           
+  - default
